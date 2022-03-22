@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/**---Variablen---**/
+
+$orange: #f4ad2b;
+$black: rgb(20, 20, 20);
+$nav-width: 7%;
+
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -7,14 +14,6 @@
 
 p{
     font-size: larger;
-}
-
-
-
-:root {
-    --orange: #f4ad2b;
-    --black: rgb(20, 20, 20);
-    --nav-width: 7%;
 }
 
 /**---Hero---**/
@@ -29,7 +28,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
     width: auto;
-    margin-left: var(--nav-width);
+    margin-left: $nav-width;
 }
 
 .bg-img {
@@ -67,7 +66,7 @@ p{
 
 .nav{
     background-color: whitesmoke;
-    width: var(--nav-width);
+    width: $nav-width;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -91,7 +90,7 @@ p{
 }
 
 .nav .links a{
-    color: var(--orange);
+    color: $orange;
     font-size: 2em;
 }
 
@@ -104,7 +103,7 @@ p{
 }
 
 .nav .socials a{
-    color: var(--orange);
+    color: $orange;
     font-size: 1em;
 }
 
@@ -134,8 +133,8 @@ h4 {
 
 .body{
     /*background-color: rgb(255, 255, 255);*/
-    color: var(--black);
-    margin-left: var(--nav-width);
+    color: $black;
+    margin-left: $nav-width;
 }
 
 .btn {
@@ -257,9 +256,9 @@ h4 {
 /**---Footer---**/
 
 .footer {
-    background-color: var(--orange);
+    background-color: $orange;
     max-height: 2em;
-    margin-left: var(--nav-width);
+    margin-left: $nav-width;
     padding: .5em 12em;
     text-align: center;
     color: white;

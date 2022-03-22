@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/**---Variablen---**/
+/* line 9, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+p {
+  font-size: larger;
+}
+
+/**---Hero---**/
+/* line 21, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.hero {
+  overflow: hidden;
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: auto;
+  margin-left: 7%;
+}
+
+/* line 34, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.bg-img {
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* line 43, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.content {
+  position: relative;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.btn-hero {
+  border: white solid .1em;
+  border-radius: 3em;
+  background-color: transparent;
+  font-size: 24pt;
+  padding: .3em .1em .1em;
+  margin-top: 0;
+  color: white;
+  transition: padding 50ms, margin-top 50ms;
+}
+
+/* line 59, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.btn-hero:hover {
+  margin-top: 1em;
+  padding-bottom: 0;
+  padding-top: .4em;
+}
+
+/**---Nav---**/
+/* line 67, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.nav {
+  background-color: whitesmoke;
+  width: 7%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  text-align: center;
+  /*box-shadow: -10px 0 10px rgb(167, 167, 167) inset;*/
+}
+
+/* line 79, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.nav img {
+  width: 80%;
+  margin-top: 1em;
+}
+
+/* line 84, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.nav .links {
+  margin-top: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 50vh;
+}
+
+/* line 92, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.nav .links a {
+  color: #f4ad2b;
+  font-size: 2em;
+}
+
+/* line 97, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.nav .links a:hover {
+  color: #d1730083;
+}
+
+/* line 101, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.nav .socials {
+  margin-top: 100%;
+}
+
+/* line 105, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.nav .socials a {
+  color: #f4ad2b;
+  font-size: 1em;
+}
+
+/* line 110, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.smooth {
+  scroll-behavior: smooth;
+}
+
+/**---h1-6---**/
+/* line 116, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 2em;
+}
+
+/* line 122, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+h2 {
+  margin-bottom: 1em;
+}
+
+/* line 126, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+h4 {
+  margin-bottom: 1em;
+}
+
+/**---Body---**/
+/* line 134, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.body {
+  /*background-color: rgb(255, 255, 255);*/
+  color: #141414;
+  margin-left: 7%;
+}
+
+/* line 140, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.btn {
+  color: var(--orange);
+  padding: .3em;
+}
+
+/* line 145, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.leadertext {
+  margin: 5em 0;
+  min-height: 200px;
+}
+
+/* line 150, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.center {
+  text-align: center;
+}
+
+/* line 154, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.wrapper {
+  margin: 0em 15em;
+  padding: 3em 0;
+}
+
+/* line 159, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.full-img-txt {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 166, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.full-img-txt .img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 173, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.full-img-txt .spacer {
+  margin: auto 4em;
+}
+
+/* line 177, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* line 181, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.bg-dark {
+  background-color: whitesmoke;
+}
+
+/**---Zitate---**/
+/* line 187, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.flex {
+  display: flex;
+}
+
+/* line 191, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.flexitem {
+  justify-content: space-around;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+  margin: 1em;
+}
+
+/* line 199, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.flexitem span {
+  color: lightgrey;
+  transition: color 1s;
+}
+
+/* line 204, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.flexitem span:hover {
+  color: #838383;
+}
+
+/* line 208, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.icon {
+  margin-bottom: 1em;
+}
+
+/**---Professoren---**/
+/* line 214, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.prof {
+  margin-top: 3em;
+  display: flex;
+}
+
+/* line 219, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.prof-img-round {
+  min-height: 12em;
+  min-width: 12em;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-right: 2em;
+}
+
+/* line 228, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.prof-txt {
+  margin: auto 0;
+  width: 50%;
+  padding: 0 1em 0 1em;
+}
+
+/* line 234, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.prof-txt h3 {
+  margin-bottom: 1em;
+}
+
+/**---Kontakt---**/
+/* line 240, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 245, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.contact-txt h2 {
+  margin-bottom: 1em;
+}
+
+/* line 249, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.contact-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/**---Footer---**/
+/* line 258, ../../../../../../../../../../../../../Users/max/PhpstormProjects/sandbox/webdevelopment22/css_input/betterstyle.scss */
+.footer {
+  background-color: #f4ad2b;
+  max-height: 2em;
+  margin-left: 7%;
+  padding: .5em 12em;
+  text-align: center;
+  color: white;
+  font-size: 10pt;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=betterstyle.css.map */
