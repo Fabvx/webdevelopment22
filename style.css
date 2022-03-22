@@ -10,7 +10,7 @@ p{
 }
 
 :root {
-    --orange: #e48512;
+    --orange: #f4ad2b;
     --black: rgb(20, 20, 20);
     --nav-width: 7%;
 }
@@ -197,7 +197,7 @@ h4 {
 
 .flexitem span {
     color: lightgrey;
-    transition: color 70ms;
+    transition: color 1s;
 }
 
 .flexitem span:hover{
